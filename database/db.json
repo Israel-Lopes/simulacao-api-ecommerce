@@ -1,0 +1,147 @@
+{
+  "carts": [
+    {
+      "name": "Meu Carrinho",
+      "id": 1,
+      "products": [
+        2
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Roupas"
+    },
+    {
+      "id": 2,
+      "name": "Calçados"
+    },
+    {
+      "id": 3,
+      "name": "Acessórios"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Jaqueta Manchester City Moletom SPR C/ Capuz Masculina - Branco+Azul",
+      "price": "224,99",
+      "img": "/uploads/D65-5861-044_zoom1",
+      "description": "Jaqueta de moletom com capuz masculina nas cores branco e azul.",
+      "categoryId": 1
+    },
+    {
+      "id": 2,
+      "name": "Moletom Under Armour Rival Fleece Sportstyle Logo - Preto",
+      "price": "179,90",
+      "img": "/uploads/B78-8652-006_zoom1.webp",
+      "description": "Moletom preto da Under Armour com logotipo Sportstyle.",
+      "categoryId": 1
+    },
+    {
+      "id": 3,
+      "name": "Jaqueta Corta Vento Oakley c/ Capuz Masculina - Dourado",
+      "price": "189,99",
+      "img": "/uploads/D63-4550-070_zoom1.webp",
+      "description": "Jaqueta corta-vento masculina com capuz na cor dourado.",
+      "categoryId": 1
+    },
+    {
+      "id": 4,
+      "name": "Jaqueta Corta Vento Oakley c/ Capuz Masculina - Azul",
+      "price": "243,58",
+      "img": "/uploads/D63-4550-008_zoom1.webp",
+      "description": "Jaqueta corta-vento masculina com capuz na cor azul.",
+      "categoryId": 1
+    },
+    {
+      "id": 5,
+      "name": "Tênis Mizuno Cool Ride Feminino - Azul+Rosa",
+      "price": "237,49",
+      "img": "/uploads/2FU-5871-791_zoom1.webp",
+      "description": "Tênis feminino Mizuno Cool Ride nas cores azul e rosa.",
+      "categoryId": 2
+    },
+    {
+      "id": 6,
+      "name": "Tênis Mizuno Cool Ride Feminino - Azul Escuro",
+      "price": "237,49",
+      "img": "/uploads/2FU-5871-342_zoom1.webp",
+      "description": "Tênis feminino Mizuno Cool Ride na cor azul escuro.",
+      "categoryId": 2
+    },
+    {
+      "id": 7,
+      "name": "Tênis Skechers Lite Pro Clear Rush Masculino - Grafite+Preto",
+      "price": "284,99",
+      "img": "/uploads/EUZ-8160-180_zoom1.webp",
+      "description": "Tênis masculino Skechers Lite Pro Clear Rush nas cores grafite e preto.",
+      "categoryId": 2
+    },
+    {
+      "id": 8,
+      "name": "Mochila Yins Brasil Casual 17 - Azul",
+      "price": "39,99",
+      "img": "/uploads/CLG-0462-008_zoom1.webp",
+      "description": "Mochila Yins Brasil Casual 17 na cor azul.",
+      "categoryId": 3
+    },
+    {
+      "id": 9,
+      "name": "Mochila Fila Double Color - Magenta",
+      "price": "119,99",
+      "img": "/uploads/I6E-2409-385_zoom1.webp",
+      "description": "Mochila Fila Double Color na cor magenta.",
+      "categoryId": 3
+    },
+    {
+      "id": 10,
+      "name": "Mochila Oakley Urban Pack 29,5L - Verde Militar",
+      "price": "1.348,90",
+      "img": "/uploads/PFN-0905-192_zoom1.webp",
+      "description": "Mochila Oakley Urban Pack 29,5L na cor verde militar.",
+      "categoryId": 3
+    },
+    {
+      "id": 11,
+      "name": "Óculos Oakley Latch Masculino - Cinza",
+      "price": "666,90",
+      "img": "/uploads/D63-3938-010_zoom1.webp",
+      "description": "Óculos Oakley Latch para homens na cor cinza.",
+      "categoryId": 3
+    },
+    {
+      "id": 12,
+      "name": "Óculos de Sol Oakley Latch Prizm Masculino - Preto",
+      "price": "792,00",
+      "img": "/uploads/D63-9858-006_zoom1.webp",
+      "description": "Óculos de sol Oakley Latch Prizm para homens na cor preta.",
+      "categoryId": 3
+    },
+    {
+      "id": 13,
+      "name": "Óculos de Sol Oakley Holbrook Prizm Masculino - Preto",
+      "price": "1.062,00",
+      "img": "/uploads/D63-8922-006_zoom1.webp",
+      "description": "Óculos de sol Oakley Holbrook Prizm para homens na cor preta.",
+      "categoryId": 3
+    },
+    {
+      "id": 14,
+      "name": "Controle PS4 sem Fio Dualshock 4 - Sony - Camuflado",
+      "price": "319,99",
+      "img": "/uploads/D32-2252-190_zoom1.webp",
+      "description": "Controle sem fio Dualshock 4 para PS4 da Sony na edição camuflada.",
+      "categoryId": 3
+    },
+    {
+      "id": 15,
+      "name": "Controle PS4 sem Fio Dualshock 4 - Sony - Marinho",
+      "price": "319,99",
+      "img": "/uploads/D32-2252-012_zoom1.webp",
+      "description": "Controle sem fio Dualshock 4 para PS4 da Sony na cor marinho.",
+      "categoryId": 3
+    }
+  ]
+}
