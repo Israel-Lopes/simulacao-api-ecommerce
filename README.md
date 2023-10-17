@@ -14,7 +14,7 @@ Para rodar o projeto basta fazer:
 
 Exemplo de como acessar imagem
 
-``http://localhost:3000/uploads/tarja_vermelha.webp``
+``http://localhost:3000/uploads/2FU-5871-791_zoom1.webp``
 
 ## Objetivos
 
@@ -28,7 +28,7 @@ A api ira fornecer imagens e um objeto json de produtos, categorias e carrinho.
 
 Listar categoria:
 
-GET ``http://localhost:3000/api/categories/${id_categoria}/products``
+GET ``http://localhost:3000/api/categories/{id_categoria}/products``
 
 Listar todas categorias:
 
@@ -42,7 +42,7 @@ GET ``http://localhost:3000/api/products``
 
 Listar produto por unidade:
 
-GET ``http://localhost:3000/api/products/${id_produto}``
+GET ``http://localhost:3000/api/products/{id_produto}``
 
 #### Cart
 
@@ -55,4 +55,4 @@ POST ``http://localhost:3000/cart``
 
 Adicionar produto ao carrinho:
 
-POST ``http://localhost:3000/cart/1/add-product/2``
+POST ``http://localhost:3000/cart/{id_carrinho}/add-product/{id_produto}``
