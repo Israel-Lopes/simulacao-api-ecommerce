@@ -1,12 +1,7 @@
 {
   "carts": [
-    {
-      "name": "Meu Carrinho",
-      "id": 1,
-      "products": [
-        2
-      ]
-    }
+  ],
+  "users": [
   ],
   "categories": [
     {
