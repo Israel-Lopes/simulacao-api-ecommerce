@@ -1,7 +1,6 @@
 # API de simulação de ecommerce
 
 Dependencias:
-
  - express
  - json-server
  - multer
@@ -10,7 +9,7 @@ Dependencias:
 
 Essa api simula um ecommerce contendo rotas de produto, categorias, carrinho, usuario e login.
 
-A api ira fornecer imagens e um objeto json de produtos, categorias e carrinho.
+A api ira fornecer tambem imagens de produtos para serem utilizadas no front-end.
 
 ## Objetivos
 
