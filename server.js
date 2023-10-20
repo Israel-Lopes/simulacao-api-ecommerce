@@ -8,7 +8,6 @@ const middlewares = jsonServer.defaults();
 const cartController = require('./controller/cartController');
 const userController = require('./controller/userController');
 const categoryController = require('./controller/categoryController');
-const uploadController = require('./controller/uploadController');
 
 // Defina os middlewares padrão
 server.use(middlewares);

@@ -3,7 +3,6 @@
 Dependencias:
  - express
  - json-server
- - multer
  - path
  - jsonwebtoken
 
