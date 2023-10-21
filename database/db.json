@@ -1,7 +1,13 @@
 {
-  "carts": [
-  ],
+  "carts": [],
   "users": [
+    {
+      "id": 1,
+      "name": "Paulo",
+      "email": "email1@example.com",
+      "password": "123",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjk3ODU2NDA2LCJleHAiOjE2OTc4NjAwMDZ9.rxDpFa4sJs5MENCEkVWHNO4SWztl4oztKetFPZZ7N64"
+    }
   ],
   "categories": [
     {
