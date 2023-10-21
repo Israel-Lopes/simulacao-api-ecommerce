@@ -15,13 +15,15 @@ function readUsersFile() {
 // Middleware para verificar o token JWT
 function verifyToken(req, res, next) {
   const token = req.header('Authorization');
-  if (!token) {
+  const cleanToken = token.replace(/^Bearer\s+/i, '');
+  if (!cleanToken) {
     return res.status(401).json({ message: 'Token JWT não fornecido' });
   }
 
   // Recupere o usuário correspondente ao token
   const usersData = readUsersFile();
-  const user = usersData.find(u => u.token === token);
+  const user = usersData.find(u => u.token === cleanToken);
+  console.log(user)
 
   if (!user) {
     return res.status(403).json({ message: 'Token JWT inválido' });
@@ -31,16 +33,6 @@ function verifyToken(req, res, next) {
   next();
 }
 
-// Rota para criar um carrinho sem autenticação
-router.post('/cart', (req, res) => {
-  const newCart = req.body;
-  const carts = db.db.get('carts');
-  newCart.id = carts.size().value() + 1;
-  newCart.products = [];
-  carts.push(newCart).write();
-  res.json(newCart);
-});
-
 // Rota para criar um carrinho com autenticação JWT
 router.post('/', verifyToken, (req, res) => {
   const newCart = req.body;
@@ -48,7 +40,7 @@ router.post('/', verifyToken, (req, res) => {
   res.json(createdCart);
 });
 
-router.post('/:cartId/add-product/:productId', (req, res) => {
+router.post('/:cartId/add-product/:productId', verifyToken, (req, res) => {
   const cartId = parseInt(req.params.cartId, 10);
   const productId = parseInt(req.params.productId, 10);
 
